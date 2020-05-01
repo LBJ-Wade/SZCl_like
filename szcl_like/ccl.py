@@ -53,7 +53,7 @@ class CCL(Theory):
         # 'As' could be substituted by sigma8.
         return {'omch2', 'ombh2', 'ns', 'As'}
 
-    def needs(self, **requirements):
+    def must_provide(self, **requirements):
         # requirements is dictionary of things requested by likelihoods
         # Note this may be called more than once
 
